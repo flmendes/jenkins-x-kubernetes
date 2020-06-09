@@ -1,0 +1,6 @@
+extends:
+  file: ../gradle/pipeline.yaml
+agent:
+  label: jenkins-gradle-java11
+  image: gradle-java11
+  container: gradle
